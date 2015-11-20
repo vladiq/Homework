@@ -30,12 +30,14 @@ begin
     if a[i] = b[j] then
     begin
       write(a[i]);
-      if a[i + 1] > b[j + 1] then j := j + 1
+      if a[i + 1] > b[j + 1] 
+      then j := j + 1
       else i := i + 1;
     end
     else 
     begin
-      if a[i] > b[j] then j := j + 1
+      if a[i] > b[j] 
+      then j := j + 1
       else i := i + 1;
     end
   end;

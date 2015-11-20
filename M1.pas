@@ -1,4 +1,4 @@
-program transp_matrix;
+program transpose_matrix;
 
 const
   n = 3;
@@ -23,7 +23,7 @@ begin
   end;
 end;
 
-function transpose_matrix(var a: matrix): matrix;
+function transp_matrix(var a: matrix): matrix;
 var
   i, j, m: integer;
 begin
@@ -58,6 +58,6 @@ end;
 
 begin
   read_matrix(a);
-  transpose_matrix(a);
+  transp_matrix(a);
   show_matrix(a);
 end.

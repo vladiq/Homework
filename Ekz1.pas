@@ -1,9 +1,9 @@
-//ВАЖНО!!! number - число, numeral - цифра
+
 program megaSumator; 
 
 type num = record
-    number: string; //само число
-    numeral: array of integer;  //массив из цифр числа
+    number: string; 
+    numeral: array of integer; 
 end;
 
 var a,b,c,sum1,sum2: num;

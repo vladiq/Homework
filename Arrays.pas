@@ -1,4 +1,4 @@
-program of_vlad;
+program arrays;
 
 const
   endb = 5;

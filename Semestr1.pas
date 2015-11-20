@@ -1,4 +1,4 @@
-program I_k;
+program i_k;
 
 var
   a, h, b, x, max, min: real;

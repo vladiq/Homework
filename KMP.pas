@@ -1,4 +1,4 @@
-program prefics;
+program KMP;
 
 var
    i,m,n,k, index: integer;
