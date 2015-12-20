@@ -1,6 +1,6 @@
 program OF1;
 
-procedure union_of_files(var f1,f2,f3: file of real; name1,name2,name3: string);
+procedure union_of_files(var f1,f2,f3: file of real; var name1,name2,name3: string);
 var
   a1,a2: real;
 begin
@@ -59,11 +59,11 @@ var
   name1,name2,name3: string;
 
 begin
- { write('Enter the file name of the first file: ');
+  write('Enter the file name of the first file: ');
   readln(name1);
   write('Enter the file name of the second file: ');
   readln(name2);
   write('Enter the file name of the output file: ');
-  readln(name2);}
-  union_of_files(f1,f2,f3,'C:\PABCWork.NET\input\numbers1.dat','C:\PABCWork.NET\input\numbers2.dat','C:\PABCWork.NET\input\numbers3.dat');
+  readln(name2);
+  union_of_files(f1,f2,f3,name1,name2,name3);
 end.
