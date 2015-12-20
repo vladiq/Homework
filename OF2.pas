@@ -21,7 +21,7 @@ begin
     end 
     else
     begin
-      if (a1=a2) then
+      if (a1>a2) then
       begin
         write(f3,a2);
         if not eof(f2) then read(f2,a2);
