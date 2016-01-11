@@ -25,8 +25,7 @@ begin
   write('Enter length of array: ');
   readln(n);
   setlength(a,n);
-  for i := 0 to n - 2 do
-  begin
+  for i := 0 to n - 2 do begin
     read(a[i]);
   end;
   a[n-1] := 0;
