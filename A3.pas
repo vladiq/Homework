@@ -6,15 +6,11 @@ var
 begin
   j := 1;
   result := 0;
-  for i := 0 to length(a) - 2 do 
-  begin
-    if (a[i] < a[i + 1]) then
-    begin
+  for i := 0 to length(a) - 2 do begin
+    if (a[i] < a[i + 1]) then begin
       j := j + 1;
-    end else
-    begin
-      if (j > result) then
-      begin
+    end else begin
+      if (j > result) then begin
         result := j;
       end;
       j := 1;
