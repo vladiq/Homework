@@ -61,8 +61,8 @@ var
   sum_i, sum_j, i, j: integer;
 begin
   i := 1;
-  j := 1;
-  while (i <= n) do
+  j := n + 1;
+  while (i <= n) and (j = n + 1) do
   begin
     j := 1;
     while (j <= n) and (A[i, j] <= n) do
@@ -71,7 +71,7 @@ begin
     end;
     i := i + 1;
   end;
-  if (i = j) and (i = n + 13) then //
+  if (j = n + 1) then //
   begin
     i := 1;
     j := 1;
